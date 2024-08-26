@@ -1,0 +1,98 @@
+
+
+  body {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+h1, p {
+    margin: 0em auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+form {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #4cae4c;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 95%;
+    }
+}
+
+#resultContainer {
+    margin-top: 20px;
+    padding: 1em;
+    background-color:  #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-item strong {
+    font-weight: bold;
+}
+
+#resultValue, #resultDrippers, #resultDrippersFlow, #calculateTimeResult {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
