@@ -8,7 +8,7 @@ Why the project is useful
 -saves time clalculating irrgtaion for landscape architects  
 
 for who is the project useful for
--currntly for landscape architects in isreal (data base is based in isreal)
+-currntly for landscape/ landscape architects in isreal (data base is based in isreal)
 
 How users can get started with the project
 -go one the webpage fillup the fourm 
